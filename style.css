@@ -1,66 +1,121 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    font-family: sans-serif;
 }
 
 header {
-    background-color: #f8f8f8;
-    padding: 20px;
+    background-image: linear-gradient(to right bottom, blue, white, gold);
     text-align: center;
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
+a {
+    color:black;
+    text-decoration:none;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 20px;
+.name1 {
+    margin-left:20px ;
+    margin-top:100px;
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: #333;
+.img-main1 {
+    position:relative;
+    float: right;
+    bottom:100px;
 }
 
-main {
-    padding: 20px;
+.span-main1 {
+    display: block;
+    width: 500px;
 }
 
-section {
-    margin-bottom: 30px;
-}
-
-h2 {
-    color: #333;
-}
-
-.action {
-    background-color: #f2f2f2;
-    padding: 20px;
+.name2 {
     text-align: center;
 }
 
-.action img {
-    max-width: 100%;
+.img-main2 {
+    text-align: center;
+    left:125px;
 }
 
-.product {
-    display: inline-block;
-    width: 200px;
-    margin-right: 20px;
+.p-main {
+    float:left;
+    margin-left:200px;
+}
+
+.p-main-price {
+    margin-left: 186px;
+    font-size:12px;
+    float:left;
+}
+
+.h2-main {
+    margin-top: 50px;
     text-align: center;
 }
 
-.product img {
-    max-width: 100%;
+.img-main3 {
+    margin-left: 150px;
+}
+
+.p-main2 {
+    margin-left: 180px;
+    text-align: center;
+}
+
+.p-main-price2 {
+    text-align: center;
+    margin-left:180px;
+    font-size:12px;
+}
+
+.h2-main0 {
+    text-align: center;
+    margin-top:30px;
+}
+
+.span-main123 {
+    position:absolute;
+    margin-top:100px;
+    margin-left:100px;
+}
+
+.img-main123:hover {
+    box-shadow: 2px 2px 10px 0 orangered;
+    transition: 1s linear;
+    transform:scale(1.1);
+}
+
+.img-main4 {
+    position:absolute ;
+    margin-top: 50px;
+}
+
+.span-main123 {
+    position:absolute;
+    margin-top:100px;
+    margin-left:100px;
+}
+
+.span-main456 {
+    margin-top:50px;
+    position: absolute;
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
+    padding:1px;
+    margin-top:200px;
+    background-image: linear-gradient(to right bottom, gold, white, blue);
+}
+
+footer p {
+    font-size:20px;
+}
+
+footer span {
+    bottom:25px;
+    margin-left:777px;
+}
+
+footer img {
+    float:right;
 }
