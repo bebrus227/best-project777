@@ -1,5 +1,6 @@
 body {
     font-family: sans-serif;
+    background-image: linear-gradient(to top, gray, white, rgb(255, 38, 82));
 }
 
 header {
